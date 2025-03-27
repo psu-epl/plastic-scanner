@@ -2267,7 +2267,7 @@
 		)
 		(uuid "fc3afc20-c7a8-4bba-8ff2-950d4e00d5fd")
 	)
-	(label "LED3"
+	(label "LED2"
 		(at 137.16 146.05 0)
 		(effects
 			(font
@@ -2277,7 +2277,7 @@
 		)
 		(uuid "0ee78360-e9d3-4bdf-b5b4-b10283e8b12e")
 	)
-	(label "LED4"
+	(label "LED3"
 		(at 137.16 148.59 0)
 		(effects
 			(font
@@ -2287,7 +2287,7 @@
 		)
 		(uuid "262c43ac-af90-4ce2-a1b7-d0eaeda1256d")
 	)
-	(label "LED3"
+	(label "LED2"
 		(at 160.02 72.39 0)
 		(effects
 			(font
@@ -2297,7 +2297,7 @@
 		)
 		(uuid "2f777c8e-e01f-4839-a2e1-b02da425c97b")
 	)
-	(label "LED2"
+	(label "LED1"
 		(at 137.16 143.51 0)
 		(effects
 			(font
@@ -2307,7 +2307,7 @@
 		)
 		(uuid "4fac0d17-233c-4669-bdad-ea25b9483b19")
 	)
-	(label "LED1"
+	(label "LED0"
 		(at 160.02 49.53 0)
 		(effects
 			(font
@@ -2317,7 +2317,7 @@
 		)
 		(uuid "563b5eb1-9a2c-4f5a-996b-c81090613369")
 	)
-	(label "LED7"
+	(label "LED6"
 		(at 160.02 115.57 0)
 		(effects
 			(font
@@ -2327,7 +2327,7 @@
 		)
 		(uuid "6c1dcf24-bb41-4d94-b7d5-37211081f604")
 	)
-	(label "LED7"
+	(label "LED6"
 		(at 137.16 166.37 0)
 		(effects
 			(font
@@ -2337,7 +2337,7 @@
 		)
 		(uuid "8120ce9c-7eaa-4f57-aab1-e487c9e7f10c")
 	)
-	(label "LED8"
+	(label "LED7"
 		(at 160.02 125.73 0)
 		(effects
 			(font
@@ -2347,7 +2347,7 @@
 		)
 		(uuid "86e59706-c0c7-4d9b-9a1b-8eb3d0e0424b")
 	)
-	(label "LED5"
+	(label "LED4"
 		(at 160.02 95.25 0)
 		(effects
 			(font
@@ -2357,7 +2357,7 @@
 		)
 		(uuid "9ba9da2e-f697-43cf-b220-f1bc8eaa67b6")
 	)
-	(label "LED1"
+	(label "LED0"
 		(at 137.16 140.97 0)
 		(effects
 			(font
@@ -2367,7 +2367,7 @@
 		)
 		(uuid "d26985df-3c26-494e-8f2b-e67f5ad7f4f3")
 	)
-	(label "LED6"
+	(label "LED5"
 		(at 137.16 163.83 0)
 		(effects
 			(font
@@ -2377,7 +2377,7 @@
 		)
 		(uuid "e1a37f76-e647-4cad-b659-fc006c81ddaf")
 	)
-	(label "LED8"
+	(label "LED7"
 		(at 137.16 168.91 0)
 		(effects
 			(font
@@ -2387,7 +2387,7 @@
 		)
 		(uuid "f5c7e125-7899-4a84-9b56-3de88879bcc6")
 	)
-	(label "LED2"
+	(label "LED1"
 		(at 160.02 60.96 0)
 		(effects
 			(font
@@ -2397,7 +2397,7 @@
 		)
 		(uuid "f7dfcf40-b86e-4496-907b-27f973775f29")
 	)
-	(label "LED4"
+	(label "LED3"
 		(at 160.02 81.28 0)
 		(effects
 			(font
@@ -2407,7 +2407,7 @@
 		)
 		(uuid "f86e8f73-d638-43b3-9bad-c2a7e3e86473")
 	)
-	(label "LED5"
+	(label "LED4"
 		(at 137.16 161.29 0)
 		(effects
 			(font
@@ -2417,7 +2417,7 @@
 		)
 		(uuid "fb183046-5659-4438-a058-68d7d769f87b")
 	)
-	(label "LED6"
+	(label "LED5"
 		(at 160.02 105.41 0)
 		(effects
 			(font
