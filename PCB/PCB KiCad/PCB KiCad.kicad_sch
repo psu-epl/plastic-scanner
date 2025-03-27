@@ -1,276 +1,290 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid a818e058-3544-4da8-96fb-1a428660711f)
-
-  (paper "A4")
-
-  (title_block
-    (title "Development Board")
-    (date "2023-09-05")
-    (rev "2.3")
-    (company "Plastic Scanner")
-  )
-
-  (lib_symbols
-    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MountingHole" (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MountingHole_0_1"
-        (circle (center 0 0) (radius 1.27)
-          (stroke (width 1.27) (type default))
-          (fill (type none))
-        )
-      )
-    )
-  )
-
-
-  (wire (pts (xy 92.71 99.06) (xy 105.41 99.06))
-    (stroke (width 0) (type default))
-    (uuid 3351ac8e-b228-4994-a6bc-f213fde0ba9d)
-  )
-  (wire (pts (xy 92.71 101.6) (xy 105.41 101.6))
-    (stroke (width 0) (type default))
-    (uuid 3b62b2ca-eb72-4574-8ccb-2c68daa108a6)
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 153.67 134.62 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 04451548-064c-4df1-a0b8-24d2db838c68)
-    (property "Reference" "H2" (at 156.21 133.3499 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 156.21 135.8899 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 153.67 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 153.67 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PCB KiCad"
-        (path "/a818e058-3544-4da8-96fb-1a428660711f"
-          (reference "H2") (unit 1)
-        )
-      )
-      (project "ledbreakout"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 167.64 134.62 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3b9a9d77-cf9c-41eb-b1ef-45a9f1e69d0b)
-    (property "Reference" "H4" (at 170.18 133.3499 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 170.18 135.8899 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 167.64 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 167.64 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PCB KiCad"
-        (path "/a818e058-3544-4da8-96fb-1a428660711f"
-          (reference "H4") (unit 1)
-        )
-      )
-      (project "ledbreakout"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "H4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 153.67 125.73 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6cde3ab9-fa0e-40f9-b3d2-7bad5f37c7f4)
-    (property "Reference" "H1" (at 156.21 124.4599 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 156.21 126.9999 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 153.67 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 153.67 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PCB KiCad"
-        (path "/a818e058-3544-4da8-96fb-1a428660711f"
-          (reference "H1") (unit 1)
-        )
-      )
-      (project "ledbreakout"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "H1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 167.4224 124.8293 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cc5a4f68-965a-4c65-96a3-4498a9be8cc5)
-    (property "Reference" "H3" (at 169.9624 123.5592 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 169.9624 126.0992 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 167.4224 124.8293 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 167.4224 124.8293 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PCB KiCad"
-        (path "/a818e058-3544-4da8-96fb-1a428660711f"
-          (reference "H3") (unit 1)
-        )
-      )
-      (project "ledbreakout"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "H3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet (at 175.895 77.47) (size 24.13 30.48) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 2f10b7a1-df61-45b4-9fd1-1ebf21b41a15)
-    (property "Sheetname" "LED" (at 175.895 76.7584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "led.kicad_sch" (at 175.895 108.5346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PCB KiCad"
-        (path "/a818e058-3544-4da8-96fb-1a428660711f" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 139.7 43.815) (size 28.575 22.225) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 5869e7b3-0d61-455b-97ad-e4e8b4829f27)
-    (property "Sheetname" "Power" (at 139.7 43.1034 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "power.kicad_sch" (at 139.7 66.6246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PCB KiCad"
-        (path "/a818e058-3544-4da8-96fb-1a428660711f" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 68.58 77.47) (size 24.13 30.48) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 98df1e87-3735-4cb9-8253-663f6eb2234f)
-    (property "Sheetname" "Sensor" (at 68.58 76.7584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "sensor.kicad_sch" (at 68.58 108.5346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "AIN-" output (at 92.71 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid e1efccad-a997-4047-bab2-2b351e2e4052)
-    )
-    (pin "AIN+" output (at 92.71 99.06 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid ce738b1e-8f8b-4ead-9195-642a9471aea6)
-    )
-    (instances
-      (project "PCB KiCad"
-        (path "/a818e058-3544-4da8-96fb-1a428660711f" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 105.41 77.47) (size 24.13 30.48) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid a8dcb7a4-48cf-403e-b881-d44234291c62)
-    (property "Sheetname" "ADC" (at 105.41 76.7584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "adc.kicad_sch" (at 105.41 108.5346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "AIN+" input (at 105.41 99.06 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 98b2bbfd-7a6b-4cd5-9c50-46e2608c36b7)
-    )
-    (pin "AIN-" input (at 105.41 101.6 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid d1eda5a5-0744-46cd-893f-5dd08993ad23)
-    )
-    (instances
-      (project "PCB KiCad"
-        (path "/a818e058-3544-4da8-96fb-1a428660711f" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 139.7 77.47) (size 28.575 30.48) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid f3879066-a91b-415e-b241-18f9d05de4a2)
-    (property "Sheetname" "MCU + IO" (at 139.7 76.7584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "mcu.kicad_sch" (at 139.7 108.5346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PCB KiCad"
-        (path "/a818e058-3544-4da8-96fb-1a428660711f" (page "4"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a818e058-3544-4da8-96fb-1a428660711f")
+	(paper "A")
+	(title_block
+		(title "Development Board")
+		(date "2025-03-03")
+		(rev "2.3.1A")
+		(company "Plastic Scanner")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 92.71 99.06) (xy 105.41 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3351ac8e-b228-4994-a6bc-f213fde0ba9d")
+	)
+	(wire
+		(pts
+			(xy 92.71 101.6) (xy 105.41 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b62b2ca-eb72-4574-8ccb-2c68daa108a6")
+	)
+	(sheet
+		(at 175.895 77.47)
+		(size 24.13 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f10b7a1-df61-45b4-9fd1-1ebf21b41a15")
+		(property "Sheetname" "LED"
+			(at 175.895 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 175.895 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB KiCad"
+				(path "/a818e058-3544-4da8-96fb-1a428660711f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 43.815)
+		(size 28.575 22.225)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5869e7b3-0d61-455b-97ad-e4e8b4829f27")
+		(property "Sheetname" "Power"
+			(at 139.7 43.1034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 139.7 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB KiCad"
+				(path "/a818e058-3544-4da8-96fb-1a428660711f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 77.47)
+		(size 24.13 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "98df1e87-3735-4cb9-8253-663f6eb2234f")
+		(property "Sheetname" "Sensor"
+			(at 68.58 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 68.58 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN-" output
+			(at 92.71 101.6 0)
+			(uuid "e1efccad-a997-4047-bab2-2b351e2e4052")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AIN+" output
+			(at 92.71 99.06 0)
+			(uuid "ce738b1e-8f8b-4ead-9195-642a9471aea6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB KiCad"
+				(path "/a818e058-3544-4da8-96fb-1a428660711f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 77.47)
+		(size 24.13 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a8dcb7a4-48cf-403e-b881-d44234291c62")
+		(property "Sheetname" "ADC"
+			(at 105.41 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 105.41 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN+" input
+			(at 105.41 99.06 180)
+			(uuid "98b2bbfd-7a6b-4cd5-9c50-46e2608c36b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN-" input
+			(at 105.41 101.6 180)
+			(uuid "d1eda5a5-0744-46cd-893f-5dd08993ad23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PCB KiCad"
+				(path "/a818e058-3544-4da8-96fb-1a428660711f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 77.47)
+		(size 28.575 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f3879066-a91b-415e-b241-18f9d05de4a2")
+		(property "Sheetname" "MCU + IO"
+			(at 139.7 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 139.7 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB KiCad"
+				(path "/a818e058-3544-4da8-96fb-1a428660711f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
