@@ -4,4 +4,5 @@
   (lib (name "OPA2376AID")(type "KiCad")(uri "${KIPRJMOD}/symbol_and_footprints/OPA2376AID/OPA2376AID.kicad_sym")(options "")(descr ""))
   (lib (name "TLC59108")(type "Legacy")(uri "${KIPRJMOD}/symbol_and_footprints/IC_Texas Instruments_TLC59108FIPWR/eec.lib")(options "")(descr ""))
   (lib (name "TLC59208")(type "Legacy")(uri "${KIPRJMOD}/symbol_and_footprints/IC_Texas Instruments_TLC59208FIPWR/eec.lib")(options "")(descr ""))
+  (lib (name "ESP32-S3-DEVKITC-1-N8R2")(type "KiCad")(uri "${KIPRJMOD}/symbol_and_footprints/ESP32-S3-DEVKITC-1-N8R2/ESP32-S3-DEVKITC-1-N8R2.kicad_sym")(options "")(descr ""))
 )
