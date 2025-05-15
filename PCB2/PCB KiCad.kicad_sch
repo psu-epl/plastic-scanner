@@ -1,0 +1,230 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a818e058-3544-4da8-96fb-1a428660711f")
+	(paper "A")
+	(title_block
+		(title "Development Board")
+		(date "2025-05-14")
+		(rev "2.3.1B")
+		(company "Plastic Scanner")
+	)
+	(lib_symbols)
+	(sheet
+		(at 175.895 77.47)
+		(size 24.13 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f10b7a1-df61-45b4-9fd1-1ebf21b41a15")
+		(property "Sheetname" "LED"
+			(at 175.895 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 175.895 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB KiCad"
+				(path "/a818e058-3544-4da8-96fb-1a428660711f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 43.815)
+		(size 28.575 22.225)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5869e7b3-0d61-455b-97ad-e4e8b4829f27")
+		(property "Sheetname" "Power"
+			(at 139.7 43.1034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 139.7 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB KiCad"
+				(path "/a818e058-3544-4da8-96fb-1a428660711f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 77.47)
+		(size 24.13 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "98df1e87-3735-4cb9-8253-663f6eb2234f")
+		(property "Sheetname" "Sensor"
+			(at 68.58 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 68.58 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB KiCad"
+				(path "/a818e058-3544-4da8-96fb-1a428660711f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 77.47)
+		(size 24.13 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a8dcb7a4-48cf-403e-b881-d44234291c62")
+		(property "Sheetname" "ADC"
+			(at 105.41 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 105.41 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB KiCad"
+				(path "/a818e058-3544-4da8-96fb-1a428660711f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 77.47)
+		(size 28.575 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f3879066-a91b-415e-b241-18f9d05de4a2")
+		(property "Sheetname" "MCU + IO"
+			(at 139.7 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 139.7 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB KiCad"
+				(path "/a818e058-3544-4da8-96fb-1a428660711f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
