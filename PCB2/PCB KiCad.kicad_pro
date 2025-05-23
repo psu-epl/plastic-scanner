@@ -558,7 +558,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "build",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "../PCB KiCad.dsn",
       "step": "../PCB KiCad.step",
